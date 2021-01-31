@@ -868,6 +868,13 @@ exe "hi! ALEErrorSign"          . s:fg_orange   .s:bg_none   .s:fmt_none
 exe "hi! ALEWarningSign"        . s:fg_yellow   .s:bg_none   .s:fmt_none
 " }}}"
 
+" nvim-dap highlighting "{{{
+" ---------------------------------------------------------------------
+exe "hi! DapBreakpoint"            . s:fg_green    .s:bg_none  .s:fmt_none
+exe "hi! DapLogPoint"              . s:fg_yellow   .s:bg_none  .s:fmt_none
+exe "hi! DapStopped"               . s:fg_red      .s:bg_none  .s:fmt_none
+" }}}"
+
 " NeoVim terminal buffer colours "{{{
 " ---------------------------------------------------------------------
 let g:terminal_color_0 = s:gui_base03
